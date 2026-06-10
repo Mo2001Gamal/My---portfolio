@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8" />
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+     <meta name="viewport" content="width,initial-scale=1.0"/>
+     <title>Mohamed Gamal Protflio</title>
+
+    </head>
+    <body>
+        <header>
+            <h1>Mohamed Gamal</h1>
+          <nav>
+    <a href="#home" class="nav-link">Home</a>
+    <a href="#about" class="nav-link">About</a>
+    <a href="#skills" class="nav-link">Skills</a>
+    <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+        </header>
+        <a href="cv.pdf" class="btn" download>
+            Download CV
+        </a>
+
+        <div class="social-icons">
+    <a href="https://github.com/Mo2001Gamal"><i class="fab fa-github"></i></a>
+    <a href="https://linkedin.com/in/mohamed-gamal-690b21325"><i class="fab fa-linkedin"></i></a>
+    </div>
+
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <img src="protoflio.jpeg" alt="Mohamed Gamal" class="profile-img">
+           <div class="hero-text">
+
+                <h2>Front-End Devepoler</h2>
+                <p>I build clean and responsive websites using HTML & CSS & Js.</p>
+                <a href="#contact" class="btn">Contact Me</a>
+           </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>I'm Mohamed Gamal, a Front-End Developer passionate about building modern and responsive websites.
+                 I enjoy transforming ideas into interactive web experiences and continuously improving my skills.</p>           
+
+        </section>
+        <section id="skills" class="section">
+            <div class="skills">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">Git & GitHub</div>
+            </div>
+        </section>
+        <section id="projects" class="section">
+            <h2>projects</h2>
+            <div class="projects">
+            <div class="card">
+                <h3>Landing Page</h3>
+                <p>Responsive landing page</p>
+                  <a href="#">Live Demo</a>
+                  <a href="#">GitHub</a>
+            </div>
+            <div class="card">
+                <h3> Protflio Website</h3>
+                <p>My personal portfolio design project</p>
+            </div>
+            </div>
+
+        </section>
+        <section id="contact" class="section">
+            <p>Email:mogamal20003000@gmail.com</p>
+            <p>Github:https://github.com/Mo2001Gamal</p>
+            <p>Linkedin:https://www.linkedin.com/in/mohamed-gamal-690b21325</p>
+        </section>
+        <footer>
+            <p>2026 Mohamed Gamal. All Rights Reserved.</p>
+        </footer>
+
+
+    <style>
+
+    .nav-link {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+    display: inline-block;
+    position: relative;
+        }
+    .nav-link:hover {
+    color: var(--light-blue);
+    transform: translateY(-5px);
+        }
+
+        /* :root { */
+    --bg-color: #0F172A;
+    --primary-color: #2563EB;
+    --light-blue: #38BDF8;
+    --text-color: #FFFFFF;
+    --secondary-text: #94A3B8;
+        }
+
+        .card:hover{
+        transform: translateY(-10px);
+        transition: .3s;
+        }
+        body {
+            background-color: #007BFF;
+            color
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20PX;
+            background: #111;
+            color: white;
+
+        }
+
+        header nav a {
+            color: white;
+            margin-left: 15px;
+            text-decoration: none;
+        }
+
+        .hero-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+     padding: 20px;
+        }
+
+   .profile-img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center 15%;
+    border: 4px solid var(--primary-color);
+    box-shadow: 0 0 25px rgba(37, 99, 235, 0.4);
+    transition: 0.3s;
+        }
+
+       .hero{
+     background: linear-gradient(
+     135deg,
+    #0f172a,
+    #1e3a8a,
+    #2563eb            
+      );
+        }
+    ;
+
+        }
+        .hero h2 {
+            font-size: 40px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: black;
+            color: white;
+            text-decoration: none;
+        }
+
+        .section{
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .Skills {
+            display: inline-block;
+            background: #ddd;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+
+        }
+
+        .projects {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        
+        }
+
+        .card {
+            width: 250px;
+            padding: 20px;
+            background: white;
+            border: 1px solid #ccc;
+
+        }
+
+   .footer {
+   <p>© 2026 Mohamed Gamal. All Rights Reserved.</p>
+    
+   }
+        
+    </style>
+
+    </body>
+
+    <script src="main.js"></script>  
+</html>
